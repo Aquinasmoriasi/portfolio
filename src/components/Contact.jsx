@@ -36,7 +36,7 @@ const Contact = () => (
     >
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="http://localhost:3000/" />
+      <input type="hidden" name="_next" value="https://aquinasmoriasi.netlify.app/#contact-me" />
       <input
         type="text"
         className="mb-2 p-2 border-0 valid"
