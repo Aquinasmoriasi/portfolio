@@ -21,11 +21,11 @@ export default function Popup({ name }) {
         aria-labelledby="custom-modal-styling-title"
       >
         <Modal.Header className="border-0" closeButton>
-          <Modal.Title className="ps-5">
+          <Modal.Title>
             {projects[name].name}
           </Modal.Title>
         </Modal.Header>
-        <div className="stack ps-5 ms-3">
+        <div className="langs">
           {projects[name].stack.map((s) => (
             <Button
               key={Math.random()}
@@ -37,7 +37,7 @@ export default function Popup({ name }) {
         </div>
         <Modal.Body>
           <ImageSlide images={projects[name].images} />
-          <p className="ps-5 pe-5 pt-4 pb-4">{projects[name].description}</p>
+          <p className="project-desc">{projects[name].description}</p>
           <div className="links d-flex justify-content-center gap-5">
             <a
               href={`${projects[name].source}`}

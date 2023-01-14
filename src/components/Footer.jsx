@@ -14,6 +14,12 @@ const Footer = () => (
         <li>Node.js</li>
       </ul>
       <ul>
+        <li>Mentorship</li>
+        <li>Leadership</li>
+        <li>Peer-to-peer review</li>
+        <li>Pair programming</li>
+      </ul>
+      <ul>
         <li>Ruby</li>
         <li>Ruby on rails</li>
         <li>Capybara</li>
@@ -23,12 +29,6 @@ const Footer = () => (
         <li>Github</li>
         <li>Netlify</li>
         <li>Heroku</li>
-      </ul>
-      <ul>
-        <li>Mentorship</li>
-        <li>Leadership</li>
-        <li>Peer-to-peer review</li>
-        <li>Pair programming</li>
       </ul>
     </div>
   </section>

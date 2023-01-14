@@ -27,18 +27,18 @@
     background-color: #fff;
     margin: 2px;
     border-radius: 20px;
-    width: 2rem;
+    width: 25px;
     height: 2px;
     -webkit-transition: all 0.05s ease-in;
     transition: all 0.05s ease-in;
   }
 
   .ham:nth-child(2) {
-    width: 1.5rem;
+    width: 18px;
   }
 
   .hamburger.active .ham:nth-child(1) {
-    transform: translateX(-7px) translateY(1px) rotate(45deg);
+    transform: translateX(-1px) translateY(6px) rotate(45deg);
   }
 
   .hamburger.active .ham:nth-child(2),
@@ -50,10 +50,11 @@
   }
 
   .hamburger.active .ham:nth-child(3) {
-    transform: translateX(-7px) translateY(-5px) rotate(-45deg);
+    transform: translateX(-1px) translateY(0) rotate(-45deg);
   }
 
   .mobile-menu {
+    font-size: 25px;
     position: fixed;
     top: 0;
     left: 0;
@@ -101,11 +102,13 @@
     background: linear-gradient(-198deg, rgba(0, 21, 41, 1) 50%, rgba(4, 65, 82, 1) 100%, rgba(5, 73, 90, 1) 100%, rgba(7, 97, 112, 1) 100%, rgba(11, 132, 145, 1) 100%);
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
+    font-size: 16px;
   }
 
   .projects .card {
-    background-color: #0e1114;
-    margin-left: 5%;
+    background: #00152900;
+    margin-left: 8%;
+    margin-bottom: 3%;
   }
 
   .projects .card .face {
@@ -158,6 +161,7 @@
     justify-content: center;
     padding-bottom: 20px;
     box-sizing: border-box;
+    border-radius: 3px;
   }
 
   a,
@@ -193,6 +197,7 @@
     background-image: url(./images/bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: 0 100%;
   }
 
   .navbar {
@@ -229,8 +234,30 @@
     text-decoration: underline;
   }
 
-  .modal-70w {
-    min-width: 70vw;
+  .modal-title {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 3.66%;
+  }
+
+  .carousel {
+    margin-bottom: 5%;
+  }
+
+  .carousel-control-prev {
+    margin-left: -7%;
+  }
+
+  .carousel-control-next {
+    margin-right: -7%;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -7%;
+  }
+
+  .langs {
+    padding: 0 7.25%;
   }
 
   .btn:focus {
@@ -239,9 +266,13 @@
   }
 
   .slide-image {
-    width: 80%;
-    height: 15vh;
-    margin-left: 10%;
+    width: 92%;
+    height: 18vh;
+    margin-left: 4%;
+  }
+
+  .project-desc {
+    padding: 0 3.82%;
   }
 
   .techs {
@@ -286,11 +317,11 @@
   #contact-me {
     width: 80vw;
     margin-top: 10px;
-    margin-left: -4.5%;
+    margin-left: -3.7%;
   }
 
   #about-me {
-    padding: 0 8% 0 12%;
+    padding: 0 8% 0 12.99%;
   }
 
   #contact-me input {
@@ -303,7 +334,7 @@
 
   .stack {
     grid-template-columns: 1fr 1fr;
-    padding: 6.5%;
+    padding: 0 12% 0 3.01%;
   }
 }
 
@@ -574,6 +605,19 @@
 
   .menu:hover {
     color: #00f48e;
+  }
+
+  .modal-title {
+    padding-left: 9.7%;
+    font-weight: bold;
+  }
+
+  .langs {
+    padding-left: 11%;
+  }
+
+  .project-desc {
+    padding-left: 10%;
   }
 
   .stack {

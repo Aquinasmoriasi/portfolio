@@ -28,44 +28,50 @@ const Contact = () => (
         Get My Resume
       </a>
     </div>
-    <form
-      id="contact-me"
-      className="container d-flex flex-column justify-content-center"
-      action="https://formsubmit.co/2b19f9cedf41319823f9bc594969b45a "
-      method="POST"
-    >
-      <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_next" value="https://aquinasmoriasi.netlify.app/#contact-me" />
-      <input
-        type="text"
-        className="mb-2 p-2 border-0 valid"
-        name="Name"
-        placeholder="Name"
-        aria-label="Name"
-        maxLength="30"
-        required
-      />
-      <input
-        type="email"
-        className="mb-2 p-2 border-0 border-bottom"
-        name="Email"
-        placeholder="Email"
-        aria-label="email"
-        required
-      />
-      <textarea
-        name="message"
-        className="mb-3 p-2"
-        rows="5"
-        placeholder="Write your message here"
-        maxLength="500"
-        required
-      />
-      <button type="submit" className="git-btn rounded-1" id="submit">
-        Get in Touch
-      </button>
-    </form>
+    <div id="contact-me">
+      <form
+        className="container d-flex flex-column justify-content-center"
+        action="https://formsubmit.co/2b19f9cedf41319823f9bc594969b45a "
+        method="POST"
+      >
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://aquinasmoriasi.netlify.app/#contact-me"
+        />
+        <input
+          type="text"
+          className="mb-2 p-2 border-0 valid"
+          id="namefield"
+          name="Name"
+          placeholder="Name"
+          aria-label="Name"
+          maxLength="30"
+          required
+        />
+        <input
+          type="email"
+          className="mb-2 p-2 border-0 border-bottom"
+          name="Email"
+          placeholder="Email"
+          aria-label="email"
+          required
+        />
+        <textarea
+          name="message"
+          className="mb-3 p-2"
+          rows="5"
+          placeholder="Write your message here"
+          maxLength="500"
+          required
+        />
+        <button type="submit" className="git-btn rounded-1" id="submit">
+          Get in Touch
+        </button>
+      </form>
+    </div>
   </section>
 );
 
