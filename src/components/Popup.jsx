@@ -48,6 +48,7 @@ export default function Popup({ name }) {
               See Source
               <i className="bi bi-github ms-2" />
             </a>
+            {projects[name].live && (
             <a
               href={`${projects[name].live}`}
               target="_blank"
@@ -57,6 +58,7 @@ export default function Popup({ name }) {
               See Live
               <i className="bi bi-box-arrow-up-right ms-2" />
             </a>
+            )}
           </div>
         </Modal.Body>
       </Modal>

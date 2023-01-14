@@ -73,7 +73,7 @@ const projects = {
     description:
       'This is a Ruby built project that enables users to add their favourite items and save them for future reference using the command line.',
     source: 'https://github.com/Aquinasmoriasi/catalog-of-my-things',
-    live: '#',
+    live: null,
   },
   conference: {
     shortname: 'conference',

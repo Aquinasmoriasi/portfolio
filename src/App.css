@@ -1,6 +1,10 @@
 /* stylelint-disable no-descending-specificity */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 768px) {
   .desktop-menu {
     display: none;
