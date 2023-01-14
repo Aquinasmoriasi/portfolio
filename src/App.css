@@ -222,7 +222,8 @@
   }
 
   h1,
-  h2 {
+  h2,
+  #contact-me h3 {
     color: #00f48e;
   }
 
@@ -541,7 +542,8 @@
   }
 
   h1,
-  h2 {
+  h2,
+  #contact-me h3 {
     color: #00f48e;
   }
 

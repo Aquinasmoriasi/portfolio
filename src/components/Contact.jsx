@@ -29,6 +29,7 @@ const Contact = () => (
       </a>
     </div>
     <div id="contact-me">
+      <h3 className="text-decoration-underline pt-4 text-center">Contact Me</h3>
       <form
         className="container d-flex flex-column justify-content-center"
         action="https://formsubmit.co/2b19f9cedf41319823f9bc594969b45a "
