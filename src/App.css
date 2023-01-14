@@ -240,8 +240,8 @@
 
   .slide-image {
     width: 80%;
+    height: 15vh;
     margin-left: 10%;
-    margin-bottom: 5%;
   }
 
   .techs {
@@ -290,7 +290,7 @@
   }
 
   #about-me {
-    padding: 10%;
+    padding: 0 8% 0 12%;
   }
 
   #contact-me input {
@@ -303,6 +303,7 @@
 
   .stack {
     grid-template-columns: 1fr 1fr;
+    padding: 6.5%;
   }
 }
 

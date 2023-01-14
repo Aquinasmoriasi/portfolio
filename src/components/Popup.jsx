@@ -45,7 +45,7 @@ export default function Popup({ name }) {
               target="_blank"
               rel="noreferrer"
             >
-              See Live
+              See Source
               <i className="bi bi-github ms-2" />
             </a>
             <a
@@ -54,7 +54,7 @@ export default function Popup({ name }) {
               className="btn rounded-1 p-2"
               rel="noreferrer"
             >
-              See source
+              See Live
               <i className="bi bi-box-arrow-up-right ms-2" />
             </a>
           </div>
