@@ -268,7 +268,7 @@
 
   .slide-image {
     width: 92%;
-    height: 18vh;
+    height: 30vh;
     margin-left: 4%;
   }
 
@@ -400,6 +400,8 @@
   .projects .card:hover .face.face1 {
     transform: translateY(0);
     z-index: 100;
+    margin-top: 20px;
+    margin-bottom: -20px;
     box-shadow:
       inset 0 0 300px #001529,
       0 0 50px  #00f48e,
@@ -512,7 +514,8 @@
   .contact-icons {
     position: fixed;
     top: 25vh;
-    left: 5px;
+    left: 7px;
+    z-index: 100;
   }
 
   #about-me {
