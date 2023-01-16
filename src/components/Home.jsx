@@ -20,7 +20,8 @@ const Home = () => (
               I’m a full-stack developer and I can help you build your website.
               Look through some of my work and experience it! If you like what
               you see and have a project you need coded, don’t hesitate to
-              contact me using the form below or visit any of listed links on the left.
+              contact me using the form below or visit any of listed links on
+              the left.
             </p>
           </Fade>
         </div>
