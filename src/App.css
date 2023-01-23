@@ -566,11 +566,6 @@ html {
     min-width: 70vw;
   }
 
-  .btn:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
   .slide-image {
     width: 80%;
     margin-left: 10%;
@@ -626,12 +621,17 @@ html {
   }
 
   .project-desc {
-    padding-left: 10%;
+    padding: 0 10%;
   }
 
   .stack {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     padding: 0 8%;
+  }
+
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
   }
 }
